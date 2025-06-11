@@ -1,0 +1,28 @@
+{
+  "name": "insomnia-plugin-aws-profile",
+  "version": "1.0.0",
+  "description": "",
+  "insomnia": {
+    "name": "aws-profile",
+    "description": "Get AWS credentials from any profile present in your ~/.aws/credentials file."
+  },
+  "homepage": "https://github.com/dyst5422/insomnia-plugin-aws-profile#readme",
+  "bugs": {
+    "url": "https://github.com/dyst5422/insomnia-plugin-aws-profile/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyst5422/insomnia-plugin-aws-profile.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@aws-sdk/credential-providers": "^3.828.0",
+    "typescript": "^5.8.3"
+  }
+}
